@@ -1,0 +1,99 @@
+.primary-header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 16px rgb(65, 65, 65);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background: var(--color-navbar);
+    z-index: 999;
+    color: var(  --text-darkcolor);
+  }
+  .primary-header .logo {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .linedis {
+    content: "";
+    height: 32px;
+    width: 2px;
+    top: 0;
+    border-left: 3px solid rgb(35, 35, 35);
+
+ 
+  }
+  .linedis p{
+    display: none;
+  }
+
+  .primary-header .right #check,
+  .primary-header .right .checkBtn {
+    display: none;
+  }
+  .primary-header .right .checkBtn {
+    cursor: pointer;
+    font-size: 1.8rem;
+    float: right;
+    padding-right: 2.5rem;
+  }
+  .primary-header .right .primary-navigation {
+    list-style: none;
+    gap: 2.5rem;
+    font-weight: bold;
+  }
+  .primary-header .right .primary-navigation li a:hover {
+    color: var(  --text-hovercolor);
+    cursor: pointer;
+    
+  }
+
+
+  @media (width <= 768px) {
+    .primary-header .right .checkBtn {
+      display: block;
+    }
+
+
+    .primary-header .right .primary-navigation {
+      width: 10rem;
+      height: 100vh;
+      background: #4DA0B0;
+      box-shadow: 0 3px 5px 0 #000;
+      flex-direction: column;
+      position: fixed;
+      top: 6.3rem;
+      right: -15rem;
+      transition: 0.5s ease;
+    }
+
+    .primary-header .right .primary-navigation li {
+      padding-left: 1rem;
+    }
+    .primary-header .right .primary-navigation li:nth-child(1) {
+      padding: 2rem 0 0 1rem;
+    }
+    .primary-header .right #check:checked ~ ul {
+      right: 0;
+      transition: 0.5s ease;
+    }
+  }
+  @media (width <= 600px) {
+    .primary-header .logo h1 {
+      font-size: 1.5rem;
+   
+    }
+    .primary-header .logo div .line {
+      font-size: 1rem;
+    }
+    .primary-header .logo div .line::before {
+      left: 40%;
+    }
+    .linedis{
+     margin-right: 25px;
+    }
+  }
+

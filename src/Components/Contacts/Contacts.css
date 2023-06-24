@@ -1,0 +1,75 @@
+.section6 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+  }
+  .section6 .title {
+    font-size: 2rem;
+  }
+  .section6 .socials {
+    padding: 4rem 0;
+    gap: 3rem;
+ 
+  }
+  .section6 .socials i {
+    font-size: 2.5rem;
+   padding: 10px;
+  }
+
+  .socials :hover{
+    justify-content: center;
+    align-items: center;
+    background: #cbaa6b;
+    border-radius: 50px;
+  
+  }
+
+  .section6 .socials i:nth-child(1) {
+    color: #0e76a8;
+  }
+  .section6 .socials i:nth-child(3) {
+    color: #0e76a8;
+  }
+  .section6 .socials i:nth-child(4) {
+    color: #48b8ec;
+  }
+
+
+  .section6 .email-section {
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .section6 .email-section .email {
+    background: var(--border-color);
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    gap: 1rem;
+    cursor: pointer;
+  }
+
+
+  .section6 .email-section .email a {
+    color: rgb(153, 153, 153);
+  }
+  .section6 .email-section .email i{
+    margin-left: 10px;
+
+  }
+  .section6 .email-section .email .send {
+    color: var(--body-bg);
+  }
+  @media (width <= 480px) {
+    .section6 .socials {
+      gap: 3rem;
+    }
+    .section6 .email-section .email {
+
+      font-size: 10px;
+    }
+
+  }

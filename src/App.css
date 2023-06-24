@@ -1,0 +1,69 @@
+:root {
+  --color-navbar: linear-gradient(to bottom, #4DA0B0,#4DA0B0);
+  --color-framecolor: linear-gradient(to bottom, #72a29c,#72a29c);
+  /* --color-framecolor: linear-gradient(to bottom, #5294a1,#40a0b3); */
+  --color-footer: linear-gradient(to bottom, #4DA0B0,#4DA0B0);
+  --body-color:  linear-gradient(to bottom, #4DA0B0, #D39D38);
+
+  --text-darkcolor: dark;
+  --text-whitecolor: #FFFFFF;
+  --text-hovercolor: #65c4d7;
+
+  --link-color:#0e76a8;
+  --text-color:#000;
+  --border-color:#2a2a2a;
+
+  --text-color-sharpblack: #202020;
+
+  --font-montserrant:"Montserrat", sans-serif;
+  --font-Poppins: "Poppins", sans-serif;
+
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+  
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5rem;
+}
+
+.wrapper {
+  background: var(--body-color);
+
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+section {
+  padding: 4rem;
+  margin: 0 auto;
+}

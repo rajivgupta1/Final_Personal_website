@@ -1,0 +1,52 @@
+.section2 {
+    justify-content: center;
+  }
+
+
+  .section2 .info-container {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+
+
+  .section2 .info-container .info-lists .icon-container i {
+    font-size: 2.5rem;
+    color: var(--text-darkcolor);
+  }
+
+
+  .section2 .info-container .info-lists div h5 {
+    letter-spacing: 2px;
+  }
+  .section2 .info-container .info-lists div p {
+    color: var(--text-darkcolor);
+  }
+  .section2 .info-container .info-divider {
+    background: black;
+    width: 2px;
+    height: 35px;
+  }
+  @media (width <= 768px) {
+    .section2 .info-container {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 10px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #project{
+      margin-right: 7.5rem;
+    }
+    #exprience{
+      margin-right: 7.5rem;
+    }
+    .section2 .info-container .info-divider {
+      display: none;
+    }
+  }

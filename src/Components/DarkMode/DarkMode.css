@@ -1,0 +1,32 @@
+:root {
+    --color-yellow: #ffca2f;
+
+    --color-dark: #2a2a2a;
+    --dark-bg: var(--color-dark);
+    
+    --dark-text-color: #fff;
+    --dark-link-color: var(--color-yellow);
+    --dark-border-color: #fff; 
+  }
+  
+  .dark-mode-checkbox:checked ~ .wrapper {
+    --body-bg: var(--dark-bg);
+    --text-color: var(--dark-text-color);
+    --link-color: var(--dark-link-color);
+    --border-color: var(--dark-border-color);
+  }
+    
+    #darkMode {
+      position: fixed;
+      top: 8.5rem;
+      left: 1rem;
+      display: none;
+    }
+  
+    .toggle {
+      position: fixed;
+      top: 8.5rem;
+      left: 2rem;
+      cursor: pointer;
+      z-index: 999;
+    }

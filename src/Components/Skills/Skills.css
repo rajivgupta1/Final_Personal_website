@@ -1,0 +1,60 @@
+.section3 {
+    justify-content: center;
+    width: 80vw;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10rem;
+
+
+    /* background-color: #E0E0E0;
+    box-shadow: 0px 2px 5px rgb(45, 43, 43);
+    border-radius: 25px;
+    width: 90vw; */
+
+  }
+  .skillTitle{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .section3 .skills-container {
+   
+    gap: 2.5rem;
+  }
+  .section3 .skills-container div {
+    margin-top: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section3 .skills-container div i {
+    font-size: 2.5rem;
+    
+  }
+  .section3 .skills-container div span {
+    color: var( --text-darkcolor);
+  }
+
+  .section3 .skills-container div img {
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
+  .section3 .skills-container div span {
+    font-weight: bold;
+  }
+  @media (width <= 768px) {
+    .section3 .skills-container {
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  @media (width <= 1220px) {
+    .section3 .skills-container {
+      width: 80vw;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }

@@ -1,0 +1,122 @@
+.section5 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+  }
+  .section5 .about-title {
+    font-size: 2rem;
+    color: var(--text-darkcolor);
+  }
+  .section5 .about-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .section5 .about-container .left {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    position: relative;
+  }
+  .section5 .about-container .left .bg {
+    position: absolute;
+    width: 75%;
+    height: 60%;
+    background: var(--color-lightgray);
+    box-shadow: 0px 2px 5px rgb(45, 43, 43);
+    border-radius: 100px 0px 50px 0px;
+    bottom: 0;
+    z-index: 0;
+  }
+  .section5 .about-container .left img {
+    z-index: 1;
+  width: 50%;
+
+  }
+
+
+
+
+  .section5 .about-container .right {
+    width: 50%;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  .section5 .about-container .right h1 {
+    font-size: 2.5rem;
+  }
+
+  .section5 .about-container .right .Description {
+    text-align: justify;
+
+  }
+
+  .section5 .about-container .right p:nth-child(3) {
+    font-weight: bold;
+  }
+  .section5 .about-container .right a {
+    color: var(--link-color);
+  }
+  .section5 .about-container .right > div {
+    flex-direction: column;
+  }
+  .section5 .about-container .right > div .tag {
+    font-weight: bold;
+  }
+  .section5 .about-container .right > div div {
+    display: flex;
+    gap: 3rem;
+  }
+  .section5 .about-container .right > div div span {
+    padding: 0.5rem 0.7rem;
+  }
+  .section5 .about-container .right > div div span:hover {
+    cursor: pointer;
+    background: #cbaa6b;
+    border-radius: 1.5rem;
+  }
+  @media (width <= 1024px) {
+    .section5 .about-container {
+      flex-direction: column;
+    }
+    .section5 .about-container .left,
+  .section5 .about-container .right {
+      width: 100%;
+      text-align: center;
+    }
+    .section5 .about-container .right div {
+      justify-content: center;
+    }
+  }
+  @media (width <= 600px) {
+    .section5{
+
+    }
+    .section5 .about-container {
+      width: 80vw;
+
+    }
+
+    .section5 .about-container .left .bg {
+     width: 70vw;
+
+    }
+
+    .section5 .about-container .right h1 {
+      font-size: 1.5rem;
+    }
+    .section5 .about-container .right div {
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    .section5 .about-container .right  .intest{
+     gap: 10px;
+    }
+
+  }
