@@ -13,7 +13,7 @@ const Header = ({ setShowScreen }) => {
   <div class='linedis'>
   </div>
   <div>
-    <h3 class="line">Full_Stack Developer</h3>
+    <h3 class="line">Frontend Developer</h3>
   </div>
 </div>
 
