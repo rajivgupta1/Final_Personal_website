@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-bottom flex">
-            <h1>Rajiv | Full_Stack Developer</h1>
+            <h1>Rajiv | Frontend Developer</h1>
 
             <p>&copy; | All right reserved</p>
               
