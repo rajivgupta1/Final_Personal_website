@@ -12,12 +12,12 @@ const Hero = () => {
         <div className="right flex">
         <div>
           <h2 className="name"> Rajiv Gupta</h2>
-          <p className="tag">Full_Stack Developer</p>
+          <p className="tag">Frontend Developer</p>
         </div>
 
         {/* <a href="" download=""> */}
 
-        <a href="nagin-resume-for-react-developer.pdf" download="nagin-resume-for-react-developer.pdf">
+        <a href="rajiv-resume-frontend-developer.pdf" download="rajiv-resume-frontend-developer.pdf">
             <button className="button">
             <div className='download'>
             <p>  Download resume </p>
