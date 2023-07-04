@@ -8,7 +8,7 @@ const Header = ({ setShowScreen }) => {
     <header class="flex primary-header" >
 
 <div class="flex logo">
-  <h1 animate__heartBeat >Rajiv Gupta</h1>
+  <h1>Rajiv Gupta</h1>
 
   <div class='linedis'>
   </div>
