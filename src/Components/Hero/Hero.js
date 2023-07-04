@@ -21,7 +21,7 @@ const Hero = () => {
             <button className="button">
             <div className='download'>
             <p>  Download resume </p>
-              <i className="fa-solid fa-download"></i>
+              <i className="fa-solid fa-download" animate__heartBeat ></i>
 
           </div>
 
