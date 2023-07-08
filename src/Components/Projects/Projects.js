@@ -148,7 +148,7 @@ const responsive = {
           <div className="buttontitle">
           <p className='title'>Dictionary App </p>
             <p className='date'>22 Mar 2023</p>
-            <p className="description">The dictionary, a linguistic oracle, houses a lexicon of words, their meanings, and their enchanting origins. A linguistic compendium, it unfurls a tapestry of definitions, guiding us through the labyrinth of language. A testament to human curiosity, the dictionary serves as a key to unlock the vast kingdom of words, enriching our communication and expanding our intellectual horizons..</p>
+            <p className="description">The dictionary, a linguistic oracle, houses a lexicon of words, their meanings, and their enchanting origins.A testament to human curiosity, the dictionary serves as a key to unlock the vast kingdom of words, enriching our communication and expanding our intellectual horizons..</p>
 
             <div className='sites'>
              
