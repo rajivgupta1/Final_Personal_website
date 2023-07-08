@@ -2,7 +2,7 @@ import React from 'react'
 import './Projects.css'
 import Cocktail from '../../assets/cocktail.png'
 import movieapi from '../../assets/movieapi.png'
-import dict_app from '../../assets/dict_app'
+import dict_app from '../../assets/dict_app.png'
 import calculator from '../../assets/calculator.png'
 import library from '../../assets/library.png'
 
@@ -142,7 +142,7 @@ const responsive = {
 
         <div className="project-card flex">
           <div className="topimg">
-            <img src={tracker} alt=""/>
+            <img src={dict_app} alt=""/>
           </div>
 
           <div className="buttontitle">
