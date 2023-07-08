@@ -2,7 +2,7 @@ import React from 'react'
 import './Projects.css'
 import Cocktail from '../../assets/cocktail.png'
 import movieapi from '../../assets/movieapi.png'
-import tracker from '../../assets/tracker.png'
+import dict_app from '../../assets/dict_app'
 import calculator from '../../assets/calculator.png'
 import library from '../../assets/library.png'
 
