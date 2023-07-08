@@ -146,13 +146,13 @@ const responsive = {
           </div>
 
           <div className="buttontitle">
-          <p className='title'>Expenses-Tracker </p>
+          <p className='title'>Dictionary App </p>
             <p className='date'>22 Mar 2023</p>
-            <p className="description">Expenses-tracker is a website designed to help users keep track of their expenses. It provides a platform where users can input their income and expenses, categorize them, and view their spending patterns over time.</p>
+            <p className="description">The dictionary, a linguistic oracle, houses a lexicon of words, their meanings, and their enchanting origins. A linguistic compendium, it unfurls a tapestry of definitions, guiding us through the labyrinth of language. A testament to human curiosity, the dictionary serves as a key to unlock the vast kingdom of words, enriching our communication and expanding our intellectual horizons..</p>
 
             <div className='sites'>
              
-              <div className='websitefrm' onClick={(e)=> window.open("https://expenses-tracker-murex-ten.vercel.app/", "_blank")}>
+              <div className='websitefrm' onClick={(e)=> window.open("https://dictionary-react-app-phi.vercel.app/", "_blank")}>
              
                <span>
                <a className='textweb'>Website</a>&nbsp;&nbsp;
@@ -162,7 +162,7 @@ const responsive = {
               </div>
               
               <div className='githubicon'>
-                <a href='https://github.com/naginshrestha/Expenses-Tracker'>
+                <a href='https://github.com/rajivgupta1/Dictionary_React_App'>
                 <i class="fa-brands fa-github"></i>
                 </a>
               
