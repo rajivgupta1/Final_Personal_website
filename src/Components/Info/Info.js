@@ -37,7 +37,7 @@ const Info = () => {
               <i className="fa-solid fa-award"></i>
             </div>
             <div>
-              <h5>2 Yr Coding</h5>
+              <h5>3 Yr Coding</h5>
               <p>Experience</p>
             </div>
           </div>
