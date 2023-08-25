@@ -17,7 +17,7 @@ const Hero = () => {
 
         {/* <a href="" download=""> */}
 
-        <a href="rajiv-resume-frontend-developer.pdf" download="rajiv-resume-frontend-developer.pdf">
+        <a href="rajiv.pdf" download="rajiv.pdf">
             <button className="button">
             <div className='download'>
             <p>  Download resume </p>
